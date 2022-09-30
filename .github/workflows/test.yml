@@ -13,15 +13,5 @@ jobs:
         run: echo "Hello world"
       - name: multiline script 
         run: |
-
           node -v
           npm -v
-
-
-      - name: python command 
-        run: |
-        print
-        (platform.processor())
-        
-        shell: python 
-
