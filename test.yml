@@ -16,3 +16,13 @@ jobs:
 
           node -v
           npm -v
+
+      - name: python command 
+        run: |
+        print
+        (platform.processor())
+        
+        shell: python 
+
+
+
